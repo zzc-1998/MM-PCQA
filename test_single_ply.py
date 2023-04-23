@@ -193,8 +193,8 @@ if __name__ == '__main__':
 
     # input parameters
 
-    parser.add_argument('--objname', type=str, default='/DATA/zzc/3dqa/wpc/wpc_plys/bag/bag_level_9.ply') # path to the test ply
-    parser.add_argument('--ckpt_path', type=str, default='/home/zzc/3DQA/MM_PCQA/mm_pcqa/ckpts_mmpcqa/WPC_2_best_model.pth') # path to the pretrained weights
+    parser.add_argument('--objname', type=str, default='/bag/bag_level_9.ply') # path to the test ply
+    parser.add_argument('--ckpt_path', type=str, default='WPC.pth') # path to the pretrained weights
 
 
     config = parser.parse_args()
