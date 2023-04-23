@@ -193,7 +193,7 @@ if __name__ == '__main__':
 
     # input parameters
 
-    parser.add_argument('--objname', type=str, default='/bag/bag_level_9.ply') # path to the test ply
+    parser.add_argument('--objname', type=str, default='/bag/bag_level_7.ply') # path to the test ply
     parser.add_argument('--ckpt_path', type=str, default='WPC.pth') # path to the pretrained weights
 
 
