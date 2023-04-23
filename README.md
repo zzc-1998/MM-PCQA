@@ -26,7 +26,9 @@ CUDA_VISIBLE_DEVICES=0 python -u train.py \
 >> logs/sjtu_mmpcqa.log
 ```
 
-You only need to replace the path of 'data_dir_2d' and 'data_dir_pc' with the path of data on your computer. *We provide the download links of the projections and patches, which can be accessed here.*  By unzipping the files, you should get the file structure like:
+You only need to replace the path of 'data_dir_2d' and 'data_dir_pc' with the path of data on your computer. **We provide the download links of the projections and patches, which can be accessed here.**  
+
+By unzipping the files, you should get the file structure like:
 
 ```
 ├── sjtu_projections
@@ -55,7 +57,10 @@ We also provide the 'test_single_ply.py' to quikly test the MM-PCQA on your own 
 parser.add_argument('--objname', type=str, default='bag_level_9.ply') # path to the test ply
 parser.add_argument('--ckpt_path', type=str, default='WPC.pth') # path to the pretrained weights
 ```
-You only need to give the path to your point clouds (.ply) and pretrained MM-PCQA weights (*we provide the weights trained on the WPC database here*). 
+You only need to give the path to your point clouds (.ply) and pretrained MM-PCQA weights.
+
+**we provide the weights trained on the WPC database here**.
+
 Then you can get the visual scores of the point clouds. During our test, the total computation time per point colud is within 10 seconds.
 
 # Citation
