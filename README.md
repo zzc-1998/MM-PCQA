@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=0 python -u train.py \
 >> logs/sjtu_mmpcqa.log
 ```
 
-You only need to replace the path of 'data_dir_2d' and 'data_dir_pc' with the path of data on your computer. We provide the download links of the prohjections and patches, which can be accessed here.  By unzipping the files, you should get the file structure like:
+You only need to replace the path of 'data_dir_2d' and 'data_dir_pc' with the path of data on your computer. We provide the download links of the projections and patches, which can be accessed here.  By unzipping the files, you should get the file structure like:
 
 ```
 ├── sjtu_projections
