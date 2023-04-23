@@ -28,16 +28,12 @@ CUDA_VISIBLE_DEVICES=0 python -u train.py \
 
 You only need to replace the path of 'data_dir_2d' and 'data_dir_pc' with the path of data on your computer. We provide the download links of the prohjections and patches, which can be accessed here.  By unzipping the files, you should get the file structure like:
 
+```
 ├── sjtu_projections
-
 │   ├── hhi_0.ply
-
 │   │   ├── 0.png
-
 │   │   ├── 1.png
-
 │   │   ├── 2.png
-
 │   │   ├── 3.png
 ...
 ├── sjtu_patch_2048
@@ -45,6 +41,7 @@ You only need to replace the path of 'data_dir_2d' and 'data_dir_pc' with the pa
 │   ├── hhi_1.npy
 │   ├── hhi_2.npy
 ...
+```
 
 Then change the path of 'data_dir_2d' and 'data_dir_pc' to 'path.../sjtu_projections' and 'path.../sjtu_patch_2048'. 
 
