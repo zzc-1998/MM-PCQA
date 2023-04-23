@@ -54,7 +54,7 @@ If you want to generate the patches and projections by your self, you can simply
 We also provide the 'test_single_ply.py' to quikly test the MM-PCQA on your own point clouds. 
 
 ```
-parser.add_argument('--objname', type=str, default='bag_level_9.ply') # path to the test ply
+parser.add_argument('--objname', type=str, default='bag/bag_level_7.ply') # path to the test ply
 parser.add_argument('--ckpt_path', type=str, default='WPC.pth') # path to the pretrained weights
 ```
 You only need to give the path to your point clouds (.ply) and pretrained MM-PCQA weights.
