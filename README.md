@@ -3,12 +3,15 @@ Official repo for 'MM-PCQA: Multi-Modal Learning for No-reference Point Cloud Qu
 
 ## Motivation
 
-Examples of reflected distortions. The point clouds can explicitly reveal the geometry down-sampling distortion while failing to recognize texture noise unless the projections are involved, which raises the need for multi-modal perception.
+Examples of reflected distortions. The point clouds can explicitly reveal the geometry down-sampling distortion while failing to recognize texture noise unless the projections are involved, which raises the need for multi-modal perception. Therefore, to boost the performance of PCQA, we propose a multi-modal learning strategy for NR-PCQA, which extracts quality-aware features not only from the 3D point clouds but also from the 2D projections. 
+
+There are two main reasons to adopt this strategy. First, point clouds can be perceived in both 2D/3D scenarios. We can view point clouds from 2D perspective via projecting them on the screen or directly watch point clouds in 3D format using the VR equipment. Thus multi-modal learning is able to cover more range of practical situations. Second, different types of distortions have divergent visual influence on different modalities. As shown in figure below, the structural damage and geometry down-sampling are more obvious in the point cloud modality while the image modality is more sensitive to texture distortions caused by color quantization and color noise. Moreover, it is easier to extract quality-aware semantic information from the image modality. Thus, the proposed multi-modal learning fashion can make up for the deficiencies and take advantage of both modalities.
+
 <p align="center">
   <img src="https://github.com/zzc-1998/MM-PCQA/blob/main/pics/spotlight.png" width = 480pt/> 
 </p>
 
-
+## Framework
 
 # How to run the code 🌟🌟🌟
 
