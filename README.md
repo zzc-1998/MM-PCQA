@@ -3,10 +3,9 @@ Official repo for 'MM-PCQA: Multi-Modal Learning for No-reference Point Cloud Qu
 
 ## Motivation
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/zzc-1998/MM-PCQA/blob/main/pics/spotlight.png" />
 </p>
-
 Examples of reflected distortions. The point clouds can explicitly reveal the geometry down-sampling distortion while failing to recognize texture noise unless the projections are involved, which raises the need for multi-modal perception.
 
 # How to run the code 🌟🌟🌟
