@@ -67,7 +67,7 @@ Then change the path of 'data_dir_2d' and 'data_dir_pc' to 'path.../sjtu_project
 
 If you want to generate the patches and projections by your self, you can simply refer to 'utils/get_patch.py' and 'utils/get_projections.py' for help.
 
-## Test
+## Test You Point Cloud
 
 We also provide the 'test_single_ply.py' to quikly test the MM-PCQA on your own point clouds. 
 
