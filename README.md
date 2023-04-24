@@ -1,8 +1,15 @@
-# MM-PCQA
+# MM-PCQA 🚀🚀🚀
 Official repo for 'MM-PCQA: Multi-Modal Learning for No-reference Point Cloud Quality Assessment', which has been accepted to IJCAI2023.
 
+## Motivation
 
-# How to run the code
+<p align="center">
+  <img src="https://github.com/zzc-1998/MM-PCQA/blob/main/pics/spotlight.png" />
+</p>
+
+Examples of reflected distortions. The point clouds can explicitly reveal the geometry down-sampling distortion while failing to recognize texture noise unless the projections are involved, which raises the need for multi-modal perception.
+
+# How to run the code 🌟🌟🌟
 
 ## Environment Build
 
@@ -63,7 +70,7 @@ You only need to give the path to your point clouds (.ply) and pretrained MM-PCQ
 
 Then you can get the visual scores of the point clouds. During our test, the total computation time per point colud is within 10 seconds.
 
-# Citation
+# Citation ☕☕☕ 
 
 If you find our work useful, please star our project and cite our paper as:
 
