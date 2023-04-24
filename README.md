@@ -13,6 +13,12 @@ There are two main reasons to adopt this strategy. First, point clouds can be pe
 
 ## Framework
 
+<p align="center">
+  <img src="https://github.com/zzc-1998/MM-PCQA/blob/main/pics/framework.png" /> 
+</p>
+
+The framework is exhibited above. Considering that the local patterns such as smoothness and roughness are very important for quality assessment, we first propose to split the point cloud into sub-models rather than sampling points for analysis, which has been previously adopted for extracting the low-level pattern features of the point cloud. The image projections are acquired by rendering the point clouds from several viewpoints with a fixed viewing distance to maintain the consistency of the texture scale. Then a point cloud encoder and an image encoder are used to encode the point clouds and projected images into quality-aware embeddings respectively, which are subsequently strengthened by symmetric cross-modality attention. Finally, the quality-aware embeddings are decoded into quality values with fully-connected layers.
+
 # How to run the code 🌟🌟🌟
 
 ## Environment Build
