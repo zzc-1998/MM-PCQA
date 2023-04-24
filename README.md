@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=0 python -u train.py \
 >> logs/sjtu_mmpcqa.log
 ```
 
-You only need to replace the path of 'data_dir_2d' and 'data_dir_pc' with the path of data on your computer. **We provide the download links of the projections and patches, which can be accessed here.**  
+You only need to replace the path of 'data_dir_2d' and 'data_dir_pc' with the path of data on your computer. **We provide the download links of the projections and patches, which can be accessed here ([Onedrive](https://1drv.ms/f/s!AjaDoj_-yWggygWzjplEICwa2G9k?e=5x7b8i) [BaiduYunpan](https://pan.baidu.com/s/1SuDsQxSRGJ5jePjhTPatHQ?pwd=pcqa)).**  
 
 By unzipping the files, you should get the file structure like:
 
