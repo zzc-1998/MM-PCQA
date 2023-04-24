@@ -59,7 +59,7 @@ parser.add_argument('--ckpt_path', type=str, default='WPC.pth') # path to the pr
 ```
 You only need to give the path to your point clouds (.ply) and pretrained MM-PCQA weights.
 
-**We provide the weights trained on the WPC database here ([WPC.pth][Onedrive](https://1drv.ms/f/s!AjaDoj_-yWggygWzjplEICwa2G9k?e=5x7b8i) [BaiduYunpan](https://pan.baidu.com/s/1SuDsQxSRGJ5jePjhTPatHQ?pwd=pcqa))**.
+**We provide the weights trained on the WPC database here (WPC.pth [Onedrive](https://1drv.ms/f/s!AjaDoj_-yWggygWzjplEICwa2G9k?e=5x7b8i) [BaiduYunpan](https://pan.baidu.com/s/1SuDsQxSRGJ5jePjhTPatHQ?pwd=pcqa))**.
 
 Then you can get the visual scores of the point clouds. During our test, the total computation time per point colud is within 10 seconds.
 
