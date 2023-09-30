@@ -67,9 +67,9 @@ Then change the path of 'data_dir_2d' and 'data_dir_pc' to 'path.../sjtu_project
 
 If you want to generate the patches and projections by your self, you can simply refer to 'utils/get_patch.py' and 'utils/get_projections.py' for help.
 
-## Test You Point Cloud
+## Test Your Point Cloud
 
-We also provide the 'test_single_ply.py' to quikly test the MM-PCQA on your own point clouds. 
+We also provide the 'test_single_ply.py' to quickly test the MM-PCQA on your own point clouds. 
 
 ```
 parser.add_argument('--objname', type=str, default='bag/bag_level_7.ply') # path to the test ply
@@ -79,7 +79,7 @@ You only need to give the path to your point clouds (.ply) and pretrained MM-PCQ
 
 **We provide the weights trained on the WPC database here (WPC.pth [Onedrive](https://1drv.ms/f/s!AjaDoj_-yWggygWzjplEICwa2G9k?e=5x7b8i) [BaiduYunpan](https://pan.baidu.com/s/1SuDsQxSRGJ5jePjhTPatHQ?pwd=pcqa))**.
 
-Then you can get the visual scores of the point clouds. During our test, the total computation time per point colud is within 10 seconds.
+Then you can get the visual scores of the point clouds. During our test, the total computation time per point cloud is within 10 seconds.
 
 # Citation ☕☕☕ 
 
