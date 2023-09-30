@@ -102,7 +102,7 @@ if __name__=='__main__':
                 transforms.Normalize(mean = [0.485, 0.456, 0.406], std = [0.229, 0.224, 0.225])])
 
 
-        print('Trainging set: ' + train_filename_list)
+        print('Training set: ' + train_filename_list)
         
         # load the network
         if args.model == 'MM_PCQA':
