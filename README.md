@@ -1,5 +1,5 @@
 # MM-PCQA 🚀🚀🚀
-Official repo for 'MM-PCQA: Multi-Modal Learning for No-reference Point Cloud Quality Assessment', which has been accepted to IJCAI2023.
+Official repo for '[MM-PCQA: Multi-Modal Learning for No-reference Point Cloud Quality Assessment](https://www.ijcai.org/proceedings/2023/0195.pdf)', which has been accepted to IJCAI2023.
 
 ## Motivation
 
