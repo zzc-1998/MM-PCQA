@@ -50,7 +50,7 @@ def farthest_point_sample(point, patch_size):
 
 def knn_patch(pcd_name, patch_size = 2048):
     pcd = o3d.io.read_point_cloud(pcd_name)
-    # nomalize pc and set up kdtree
+    # normalize pc and set up kdtree
     points = pc_normalize(np.array(pcd.points))
     pcd.points = o3d.utility.Vector3dVector(points)
     kdtree = o3d.geometry.KDTreeFlann(pcd)
